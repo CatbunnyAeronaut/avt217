@@ -1,0 +1,52 @@
+body {
+    background-color: gold;
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color:black;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 48px;
+}
+
+.bodySmallText {
+    font-size: 36px;
+}
+
+.bodyLargeText {
+    font-size: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color:#aaaaaa;
+}
+
+a:visited {
+    color:#aaaaaa;
+}
+
+.bodyRedText {
+    color:red;
+}
+
+.bodyBlueText, .bodyBlueLink {
+    color:dodgerblue;
+}
+
+a:hover {
+    color: whitesmoke;
+}
+
+.bodyBlueLink:hover {
+    color:whitesmoke;
+}
+

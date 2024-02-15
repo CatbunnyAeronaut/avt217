@@ -1,0 +1,33 @@
+html {
+    background-color: blueviolet;
+}
+
+body {
+    color:plum;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 24px;
+}
+
+.homepageContent {
+    margin-left: 5vw;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-transform: uppercase;
+}
+
+li {
+    color:whitesmoke;
+}
+
+a:link, a:visited {
+    color:plum;
+}
+
+a:hover {
+    color: turquoise;
+}
