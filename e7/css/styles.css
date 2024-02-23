@@ -1,0 +1,47 @@
+html {
+    background-color: #dddddd;
+    font-size: 16px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+h1, h2, li {
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+p {
+    font-family: 'Crimson Text', serif;
+}
+
+.e7_title {
+    text-align: center;
+}
+
+.e7_title p {
+    font-size: 24px;
+}
+
+.e7_title h2 {
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.e7_size {
+    font-size: 1.5em;
+}
+
+.e7_form {
+    text-transform: uppercase;
+}
+
+.e7_col {
+    color:#0000aa;
+}
+
+.e7_dir {
+    margin-right: 40vw;
+}
