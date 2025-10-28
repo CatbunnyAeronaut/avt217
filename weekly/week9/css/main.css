@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+/* CSS Document */
+body {
+  text-align: center;
+  background: url("../img/pie.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#container {
+  position: absolute;
+  width: calc(100% - 50px);
+  height: calc(100% - 50px);
+
+  border: solid rgb(255, 204, 108) 25px;
+}
+
+p {
+  position: relative;
+  top: 50%;
+  margin-top: 0px;
+
+  background-color: rgb(194, 178, 125);
+
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Story Script", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 48px;
+}
+
+
+
+/* tell browser don't display it when screen is wider than 768px */
+.mobile-only {
+  display: none;
+}
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+@media only screen and (max-width: 768px) {
+
+  body {}
+
+  #container {}
+
+  p {
+    margin-bottom: 0px;
+    padding-bottom: 10px;
+  }
+
+  #cursive {
+    font-family: "Dynalight", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .mobile-only {
+    display: block;
+  }
+
+  /* Now the style and content for desktop will not be displied */
+  .desktop-only {
+    display: none;
+  }
+
+}
+
+/* don't forget to close the styles for mobile/
