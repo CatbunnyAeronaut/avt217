@@ -77,16 +77,6 @@ header {
     text-align: center;
 }
 
-.homepageImage {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 24px;
-}
-.homepageImage > img {
-    width: 600px;
-}
-
 footer {
     height: 48px;
 }
@@ -94,26 +84,43 @@ footer {
 /* Homepage */
 
 article {
+    margin: 18px 32px;
+
+    font-size: 1.2em;
+}
+
+article ul {
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+article li {
+    font-weight: bold;
+}
+
+.oneDay {
+    display: flex;
+    justify-content: space-around;
     margin: 18px;
 }
 
-article > div {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 300px;
-    height: 250px;
-    border: 5px solid #c8c69d;
-
-    background-color: #6A041D;
+.oneDay > div {
+    width: 40%;
+    margin: 8px;
 }
 
-article > div > p {
-    margin: 8px;
-    text-align: center;
-    font-size: 1.5em;
+.oneDay img {
+    width: 100%;
+    height: auto;
+    border: 8px solid #c8c69d;
+}
+
+#oneDay_mangaImg {
+    width: 40%;
+}
+
+#oneDay_alleyImg {
+    width: 50%;
 }
 
 /* Mobile Changes */
@@ -123,5 +130,27 @@ article > div > p {
     }
     .mobile {
         display: block;
+    }
+
+    article {
+        font-size: 1em;
+    }
+
+    .oneDay {
+        flex-direction: column;
+        margin: 8px;
+    }
+
+    .oneDay > div {
+        width: 100%;
+        margin: 0;
+    }
+
+    .oneDay img {
+        border: 4px solid #c8c69d;
+    }
+
+    #oneDay_mangaImg, #oneDay_alleyImg {
+        width: 100%;
     }
 }

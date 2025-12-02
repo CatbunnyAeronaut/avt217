@@ -77,43 +77,41 @@ header {
     text-align: center;
 }
 
-.homepageImage {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin: 24px;
-}
-.homepageImage > img {
-    width: 600px;
-}
-
 footer {
     height: 48px;
 }
 
-/* Homepage */
+/* About Page */
 
 article {
     display: flex;
-    justify-content: space-evenly;
-    margin: 18px;
+    flex-direction: column;
+    margin: 18px 32px;
+
+    font-size: 1.2em;
 }
 
 article > div {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 300px;
-    height: 250px;
-    border: 5px solid #c8c69d;
-
-    background-color: #6A041D;
+    margin: 24px 32px;
 }
 
-article > div > p {
-    margin: 8px;
-    text-align: center;
-    font-size: 1.5em;
+.aboutHistory, .aboutTravel, .aboutWhen {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutHistory2, .aboutTravel2, .aboutWhen2 {
+    margin: 16px;
+    width: 40%;
+}
+
+.aboutImg {
+    width: 50%;
+}
+
+article img {
+    width: 100%;
+    height: auto;
 }
 
 /* Mobile Changes */
@@ -123,5 +121,26 @@ article > div > p {
     }
     .mobile {
         display: block;
+    }
+
+    article {
+        font-size: 1em;
+    }
+
+    article > div {
+        margin: 12px 8px;
+    }
+
+    h3 {
+        text-align: center;
+    }
+
+    .aboutHistory, .aboutTravel, .aboutWhen {
+        flex-direction: column;
+    }
+
+    .aboutHistory2, .aboutTravel2, .aboutWhen2, .aboutImg {
+        margin: 0px;
+        width: 100%;
     }
 }

@@ -2,30 +2,62 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Knewave&family=Lexend:wght@100..900&family=Truculenta:opsz,wght@12..72,100..900&display=swap" rel="stylesheet">
+
 	<link rel="stylesheet" href="css/homepage_style.css">
 	<title>Visit Kyoto - The Peaceful Capital</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="about/index.html">About</a></li>
-                <li><a href="sightseeing/index.html">Sightseeing</a></li>
-                <li><a href="one_day_guide/index.html">Your One Day Guide</a></li>
-            </ul>
-        </nav>
+    <nav>
+        <ul>
+            <div class="desktop">
+                <li><a href="#" class="headerNav">Home</a></li>
+                <li><a href="about/index.html" class="headerNav">About</a></li>
+                <li><a href="sightseeing/index.html" class="headerNav">Sightseeing</a></li>
+                <li><a href="one_day_guide/index.html" class="headerNav">Your One Day Guide</a></li>
+            </div>
 
-        <h1>Visit Kyoto</h1>
-        <h2>The Peaceful Capital</h2>
-        <p>This is a blurb about how cool the place is</p>
+            <div class="mobile">
+                <div>
+                    <li><a href="#" class="headerNav">Home</a></li>
+                    <li><a href="about/index.html" class="headerNav">About</a></li>
+                </div>
+                <div>
+                    <li><a href="sightseeing/index.html" class="headerNav">Sightseeing</a></li>
+                </div>
+                <div>
+                    <li><a href="one_day_guide/index.html" class="headerNav">Your One Day Guide</a></li>
+                </div>
+            </div>
+        </ul>
+    </nav>
+
+    <header>
+        <div class="title">
+            <h1 class="font_knewave">Visit Kyoto</h1>
+            <h2>The Peaceful Capital</h2>
+        </div>
+        <div class="headerIntro">
+            <p>Kyoto, Japan, also known as "The Peaceful Capital", is home to all sorts of travel activities for all sorts of people to enjoy. Being the original capital of Japan until 1869, Kyoto is built up with a rich history which influences its modern culture today.</p>
+            <p>This site will help those willing to travel and sightsee around Kyoto to provide a guide for activities to do and food to eat!</p>
+        </div>
     </header>
 
+    <div class="homepageImage"><img src="images/kyoto_homepage.jpg"></div>
+
     <article>
-        <p><a href="about/index.html">Box with About link</a></p>
-        <p><a href="sightseeing/index.html">Box with Sightseeing link</a></p>
-        <p><a href="one_day_guide/index.html">Box with One Day Guide link</a></p>
+        <div>
+            <p><a href="about/index.html"><span class="font_knewave">About:</span><br>Learn more about Kyoto</a></p>
+        </div>
+        <div>
+            <p><a href="sightseeing/index.html"><span class="font_knewave">Sightseeing:</span><br>10 of the best locales for you to see!</a></p>
+        </div>
+        <div>
+            <p><a href="one_day_guide/index.html"><span class="font_knewave">One Day Guide:</span><br>The one stop shop for a simple day trip</a></p>
+        </div>
     </article>
 
     <footer>
